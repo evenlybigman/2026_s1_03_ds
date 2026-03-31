@@ -1,5 +1,5 @@
-﻿#include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
 #define SIZE 6
 
 void get_integers(int list[]) {
@@ -10,9 +10,9 @@ void get_integers(int list[]) {
 }
 
 int cal_sum(int list[]) {
-	int sum;
+	int sum = 0;
 	for (int i = 0; i < SIZE; i++) {
-		sum += list[i];
+		sum += list[i]; // sum += *(list + i)랑 같은 코드이다.
 	}
 	return sum;
 }
