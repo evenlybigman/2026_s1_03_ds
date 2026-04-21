@@ -6,6 +6,10 @@ int factorial(int n) {
 }
 
 int main() {
+	int result = 1;
 	int n = 5;
-	printf("%d 팩토리얼의 값: %d",n, factorial(n));
+	for (int n = 5; n > 0; n--) {
+		result *= n;
+	}
+	printf("%d 팩토리얼의 값: %d", 5, result);
 }
