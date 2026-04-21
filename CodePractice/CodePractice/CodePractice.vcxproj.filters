@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="factorial.c">
+    <ClCompile Include="power.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
