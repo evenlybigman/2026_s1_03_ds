@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hanoitop.c">
+    <ClCompile Include="polynomial.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
